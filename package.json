@@ -1,7 +1,7 @@
 {
-  "name": "yoyoo-ddr-vue3",
+  "name": "yoyoo-ddr-vue3-ts",
   "private": false,
-  "version": "1.1",
+  "version": "2.0.0",
   "type": "module",
   "description": "Lightweight and no dependencies,use draggable, resizable, rotatable, configurable for react component ",
   "keywords": [
@@ -10,6 +10,10 @@
     "rotatable",
     "vue3",
     "ts"
+  ],
+  "files": [
+    "dist",
+    "src/components"
   ],
   "scripts": {
     "dev": "vite",
