@@ -10,8 +10,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/components/index.tsx',
-      name: 'yoyoo-ddr-vue3-ts',
-      fileName: (name) => `yoyoo-ddr-vue3-ts.${name}.js`,
+      name: 'yoyoo-ddr-vue3',
+      fileName: (name) => `yoyoo-ddr-vue3.${name}.js`,
     },
     sourcemap: true,
     rollupOptions: {
